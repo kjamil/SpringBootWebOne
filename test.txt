@@ -23,4 +23,4 @@ git push -u origin master
 ===========================
 More changes after the commit
 Added new line at the bottom 
-
+Another line was added at the bottom for test-change
