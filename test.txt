@@ -1,0 +1,26 @@
+This is just a test file for git
+git config --global user.name "kjamil"
+git config --global user.email "kjamil@sertec.com"
+
+git clone https://github.com/kjamil/SpringBootWebOne.git
+git add test.txt
+
+ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test.txt
+
+git commit -m "First file to be added" test.txt
+[master 1b0a4db] First file to be added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+git push -u origin master
+
+===========================
+More changes after the commit
+
+
